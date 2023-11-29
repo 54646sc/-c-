@@ -1,11 +1,8 @@
-#include <iostream>
-using namespace std;
+#include "¼Ó·¨º¯Êý.h"
 int main()
 {
-	int a=1;
-	int b=1;
-	int sum=a+b;
-	cout<<sum<<endl;
-	system("pause");
-	return 0;
+	int a=0;
+	int b=99;
+	int ret = add(a,b);
+	cout <<ret<<endl;
 }
